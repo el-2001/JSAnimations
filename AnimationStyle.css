@@ -1,0 +1,41 @@
+
+
+main{
+    height: 2000px;
+}
+.right-fade-in{
+    margin-top: 200px;
+    width: 50%;
+    float: left; 
+    border: 10px solid black;
+    transform: translateX(-110%);
+    opacity: 0;
+    transition: all ease 1.5s;
+}
+.left-fade-in{
+    margin-top: 200px;
+    width: 50%;
+    float: right; 
+    border: 10px solid black;
+    transform: translateX(110%);
+    opacity: 0;
+    transition: all ease 3s;
+}
+h2{
+font-size: 4rem;
+}
+
+button{
+    position: fixed;
+}
+
+@media only screen and (max-width: 425px){
+    h2{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:375px) {
+    h2{
+        font-size: 1rem;
+    }
+}
